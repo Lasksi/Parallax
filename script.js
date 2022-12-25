@@ -36,10 +36,10 @@ let scene = new ScrollMagic.Scene({
 
 
 timeline.fromTo(".text", {opacity:0}, {opacity:1, duration: 3}) 
-fades in Text, relies on gsap script
+/*fades in Text, relies on gsap script*/
 
- 
+/* 
 timeline
 .to('.text', 5, {x:500})
 .to('.content-images', 2, {opacity: 0}, '-=2');
-
+*/
