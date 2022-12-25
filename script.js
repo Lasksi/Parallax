@@ -1,5 +1,7 @@
+/*
 let controller = new ScrollMagic.Controller();
 let timeline = new TimelineMax();
+*/
 /*let scroller = new SmoothScroll({
     target: document.querySelector("container"), // element container to scroll
     scrollEase: 0.1, // scroll speed
@@ -22,10 +24,11 @@ timeline
     .to(".content", 3, {top:"0%"},"-=3")
     .fromTo('.content-images', {opacity:0.5}, {opacity:1, duration: 2});
 
-let scene = new ScrollMagic.Scene({
+/*let scene = new ScrollMagic.Scene({
     triggerElement: "section",
     duration: "150%",
     triggerHook: 0.,
+    */
 })
 .setTween(timeline)
 .setPin("section")
