@@ -1,0 +1,54 @@
+/*disable margins and padding*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color :aliceblue;
+    font-family: "Poppins", sans-serif;
+}
+nav{
+    position:absolute;
+    display: flex;
+    width:100%;
+    padding: 1rem 10rem;
+    justify-content: space-between;
+    background: lightblue;
+}
+.container{
+    height: 100vh;
+}
+.container img{
+    width: 100%;
+    position:absolute;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+.main-title{
+    position: absolute;
+    top:50%; 
+    left:50%;
+    font-size: 4rem;
+    transform: translate(-40%, -50%);
+}
+.content{
+    width: 100%;
+    background: black;
+    min-height: 80vh;
+    z-index: 2;
+    position:absolute;
+}
+.content-images{
+    scale: 80%;
+    display: flex;
+    /*flex-direction: row-reverse; gør hvad du tror den gør*/
+    justify-content: space-around;
+    align-items: center;
+    min-height: 50vh;
+    text-align: center;
+    
+}
+.text{
+    padding: 2rem 20rem;
+    font-size: 1.1rem;
+}
