@@ -22,7 +22,7 @@ timeline
     /*.to(".background", 3, {y:-150},"-=3")*/
     /* .fromTo(".content", {y:0}, {y:-200, duration: 3},"-=3") no worky*/
     .to(".content", 3, {top:"0%"},"-=3")
-    .fromTo('.content-images', {opacity:0.5}, {opacity:1, duration: 2});
+    /*.fromTo('.content-images', {opacity:0.5}, {opacity:1, duration: 2});*/
 
 let scene = new ScrollMagic.Scene({
     triggerElement: "section",
@@ -34,8 +34,9 @@ let scene = new ScrollMagic.Scene({
 .setPin("section")
 .addTo(controller);
 
-
+/*
 timeline.fromTo(".text", {opacity:0}, {opacity:1, duration: 3}) 
+*/
 /*fades in Text, relies on gsap script*/
 
 /* 
