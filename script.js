@@ -27,19 +27,19 @@ timeline
 let scene = new ScrollMagic.Scene({
     triggerElement: "section",
     duration: "150%",
-    triggerHook: 0.,
-    
+    triggerHook: 0., 
 })
+  
 .setTween(timeline)
 .setPin("section")
 .addTo(controller);
 
-/*
+
 timeline.fromTo(".text", {opacity:0}, {opacity:1, duration: 3}) 
 fades in Text, relies on gsap script
-*/
-/* 
+
+ 
 timeline
 .to('.text', 5, {x:500})
 .to('.content-images', 2, {opacity: 0}, '-=2');
-*/
+
